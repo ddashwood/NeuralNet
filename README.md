@@ -1,5 +1,5 @@
 # NeuralNet
-A basic neural network, with a user interface for testing. Implemented using C#.
+A basic neural network, with a user interface for testing. Implemented using C# 7.
 
 This solution consists of 3 projects with their respective namespaces:
 
