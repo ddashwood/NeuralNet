@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NeuralNetConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Description>
+This is a neural net task to perform a Boolean AND.
+&#13;&#10;&#13;&#10;
+The inputs are between 0 and 1. Less than 0.5 is Low, suggested value is 0.1. More than 0.5 is High, suggested value is 0.9.
+  </Description>
+  <ShortDescription>Boolean AND</ShortDescription>
+  <Input>
+    <ArrayOfDouble>
+      <double>0.9</double>
+      <double>0.9</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0.1</double>
+      <double>0.9</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0.9</double>
+      <double>0.1</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0.1</double>
+      <double>0.1</double>
+    </ArrayOfDouble>
+  </Input>
+  <Output>
+    <ArrayOfDouble>
+      <double>0.9</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0.1</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0.1</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0.1</double>
+    </ArrayOfDouble>
+  </Output>
+  <InputNeuronCount>2</InputNeuronCount>
+  <HiddenNeuronCount>4</HiddenNeuronCount>
+  <OutputNeuronCount>1</OutputNeuronCount>
+  <MaxError>0.1</MaxError>
+  <LearningRate>0.25</LearningRate>
+  <FormatterAssembly>NeuralNetTypes</FormatterAssembly>
+  <FormatterClass>NeuralNetTypes.NeuralNetBooleanFormatter</FormatterClass>
+</NeuralNetConfig>
