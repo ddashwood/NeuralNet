@@ -35,3 +35,9 @@ This namespace contains:
 A user interface for testing the neural network.
 
 Additionally, this project contains some configuration files that can be used to create configured NeuralNetTask classes - one which performs a Boolean AND, and one which performas a Boolean XOR.
+
+#### Credits
+
+The algorithm for the neural network is based very heavily on [this algorithm from c-sharpcorner.com](http://www.c-sharpcorner.com/article/C-Sharp-artificial-intelligence-ai-programming-a-basic-object/).
+
+Credit is also given to http://www.free-icons-download.net for the icon.
