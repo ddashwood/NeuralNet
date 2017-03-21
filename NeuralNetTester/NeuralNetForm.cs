@@ -1,7 +1,4 @@
-﻿// Need to credit http://www.free-icons-download.net for the icon
-// Also http://www.c-sharpcorner.com/article/C-Sharp-artificial-intelligence-ai-programming-a-basic-object/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Threading.Tasks;
