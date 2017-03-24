@@ -38,11 +38,15 @@ namespace NeuralNetTypes
 
         private string HighOrLow(double number)
         {
+            // Check if the number is within the maximum error
+            // If it is, return a capital H or L
             if (Math.Abs(number - high) <= maxError)
                 return "H";
             if (Math.Abs(number - low) <= maxError)
                 return "L";
-            return "?";
+
+            // Otherwise, return a lower case letter
+            return (number >= 0.5 ? "h" : "l");
         }
     }
 }
